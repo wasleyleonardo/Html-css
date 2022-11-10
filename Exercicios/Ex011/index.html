@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando vídeo no HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado em meu próprio servidor.</p>
+    
+    <video width="450px" poster="foto/capa-video.jpg" controls>
+        <source src="midias/meu-video.m4v" type="video/mp4">
+        <source src="midias/um-video.mp4" type="video/mp4">
+        <p>Seu navergador não é compatível com o formato desse vídeo.</p>
+    </video>
+    
+    <h1>Inserindo vídeos fora do meu servidor</h1>
+    <p>Esse é um vídeo tirado do YouTube </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/w6CgWt-rX9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

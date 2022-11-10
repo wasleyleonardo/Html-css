@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div's semânticas</title>
+    <style>
+        body {
+            font-family: arial, helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 2px 2px 1px rgba(0,0,0,0.4);
+        }
+        
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 55px 10px 10px;
+        }
+        
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        article > aside {
+            background-color: rgb(165,165,165);
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+        
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 15px;
+            background-color: black;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu menu principal</h1>
+        <nav>
+            <a href="#">Principais notícias</a>
+            <a href="#">Contato</a>
+            <a href="#">Sobre nós </a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <main>
+        <p>Alguns artigos</p>
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <aside>
+                    <p>Escrito por José Lins do Rego</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Densenvolvido por: Wasley Leonardo.</p>
+    </footer>
+    <div id="bola">
+        
+    </div>
+</body>
+</html>
